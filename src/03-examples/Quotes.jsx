@@ -10,7 +10,7 @@ export const Quotes = ({author, quote}) => {
   useLayoutEffect(() => {
     //Con el uso del useRef para tener la referencia del parrafo en el html
     //vamos a saber cuanto espacio esta necesitando
-    console.log(pRef.current.getBoundingClientRect());
+    //console.log(pRef.current.getBoundingClientRect());
     const {width, height} = pRef.current.getBoundingClientRect();
     setBoxSize({
       width,
